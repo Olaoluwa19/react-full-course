@@ -1,0 +1,2 @@
+npm create vite@latest my-react-app
+npm create vite@latest 10tut-color-changer

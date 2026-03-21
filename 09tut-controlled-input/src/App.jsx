@@ -46,14 +46,16 @@ function App() {
   return (
     <div className="App">
       <Header title="Grocery List" />
-      <SearchItem search={search} setSearch={setSearch} />
       <AddItems
         newItem={newItem}
         setNewItem={setNewItem}
         handleSubmit={handleSubmit}
       />
+      <SearchItem search={search} setSearch={setSearch} />
       <Content
-        items={items}
+        items={items.filter((item) =>
+          item.item.toLowerCase().includes(search.toLowerCase()),
+        )}
         handleCheck={handleCheck}
         handleDelete={handleDelete}
       />

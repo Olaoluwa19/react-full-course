@@ -1,0 +1,5 @@
+tools:
+json-server
+
+npx json-server -p 3500 -w data/db.json
+http://localhost:3500/item

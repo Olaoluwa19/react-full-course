@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": true,
+      "item": "Almonds, Unsalted, in the blue bag"
+    },
+    {
+      "id": 2,
+      "checked": false,
+      "item": "3 Bags of 50kg bag of rice"
+    },
+    {
+      "id": 3,
+      "checked": false,
+      "item": "1 50kg gallon of ororo"
+    }
+  ]
+}

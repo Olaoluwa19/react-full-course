@@ -1,2 +1,9 @@
 npm create vite@latest my-react-app
-npm create vite@latest 10tut-color-changer
+npm create vite@latest 15tut-JSON-fetch-challenge
+
+tools:
+json-server
+https://jsonplaceholder.typicode.com/
+
+npx json-server -p 3500 -w data/db.json
+http://localhost:3500/item

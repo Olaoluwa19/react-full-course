@@ -1,21 +1,6 @@
 {
   "items": [
     {
-      "id": "1",
-      "checked": true,
-      "item": "Almonds, Unsalted, in the blue bag"
-    },
-    {
-      "id": "2",
-      "checked": false,
-      "item": "3 Bags of 50kg bag of rice"
-    },
-    {
-      "id": "3",
-      "checked": false,
-      "item": "1 50kg gallon of ororo"
-    },
-    {
       "id": "u-CuYOPet4w",
       "checked": false,
       "item": "noodles"
@@ -26,9 +11,19 @@
       "item": "indomie"
     },
     {
-      "id": "7WTP_MgMN70",
-      "checked": true,
-      "item": "seasoning"
+      "id": "-fPeYc9CIlg",
+      "checked": false,
+      "item": "Taco"
+    },
+    {
+      "id": "bJ-bfxSSmz0",
+      "checked": false,
+      "item": "Onions"
+    },
+    {
+      "id": "Xso0WHGPfgM",
+      "checked": false,
+      "item": "Cap rice"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

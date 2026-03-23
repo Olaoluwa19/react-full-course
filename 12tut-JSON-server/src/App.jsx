@@ -4,7 +4,7 @@ import AddItems from "./AddItems";
 import SearchItem from "./SearchItem";
 import Content from "./Content";
 import Footer from "./Footer";
-import apiREquest from "./apiRequest";
+import apiRequest from "./apiRequest";
 
 function App() {
   const API_URL = "http://localhost:3500/items";
@@ -48,7 +48,7 @@ function App() {
       },
       body: JSON.stringify(myNewItem),
     };
-    const result = await apiREquest(API_URL, postOptions);
+    const result = await apiRequest(API_URL, postOptions);
     if (result) setFetchError(result);
   };
 
@@ -67,13 +67,18 @@ function App() {
       body: JSON.stringify({ checked: myItem[0].checked }),
     };
     const reqUrl = `${API_URL}/${id}`;
-    const result = await apiREquest(reqUrl, updateOptions);
+    const result = await apiRequest(reqUrl, updateOptions);
     if (result) setFetchError(result);
   };
 
-  const handleDelete = (id) => {
+  const handleDelete = async (id) => {
     const listItems = items.filter((item) => item.id !== id);
     setItems(listItems);
+
+    const deleteOptions = { method: "DELETE" };
+    const reqUrl = `${API_URL}/${id}`;
+    const result = await apiRequest(reqUrl, deleteOptions);
+    if (result) setFetchError(result);
   };
 
   const handleSubmit = (e) => {

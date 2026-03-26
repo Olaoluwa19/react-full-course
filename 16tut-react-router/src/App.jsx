@@ -36,7 +36,20 @@ function App() {
   ]);
   const [search, setSearch] = useState("");
   const [searchResults, setSearcResults] = useState([]);
-  // const navigate = useNavigate()
+  const { postTitle, setPostTitle } = useState("");
+  const { postBody, setPostBody } = useState("");
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    const id = posts.length ? posts[posts.length - 1].id + 1 : 1;
+    const datetime = "";
+  };
+
+  const handleDelete = (id) => {
+    const postslist = posts.filter((post) => post.id !== id);
+    setPosts(postslist);
+    navigate("/");
+  };
   return (
     <Routes>
       <Route
@@ -45,8 +58,22 @@ function App() {
       >
         <Route index element={<Home posts={posts} />} />
         <Route path="post">
-          <Route index element={<NewPost />} />
-          <Route path=":id" element={<PostPage />} />
+          <Route
+            index
+            element={
+              <NewPost
+                handleSubmit={handleSubmit}
+                postTitle={postTitle}
+                setPostTitle={setPostTitle}
+                postBody={postBody}
+                setPostBody={setPostBody}
+              />
+            }
+          />
+          <Route
+            path=":id"
+            element={<PostPage posts={posts} handleDelete={handleDelete} />}
+          />
         </Route>
         <Route path="about" element={<About />} />
         <Route path="*" element={<Missing />} />

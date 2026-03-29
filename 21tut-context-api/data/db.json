@@ -3,8 +3,8 @@
     {
       "id": "2",
       "title": "My 2nd Post",
-      "datetime": "July 01, 2021 11:17:36 AM",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur expedita, assumenda similique non optio! Modi nesciunt excepturi corrupti atque blanditiis quo nobis, non optio quae possimus illum exercitationem ipsa!"
+      "datetime": "Mar 29, 2026 8:04:51 PM",
+      "body": "This the second post. Cool stuff learning react❤️🚀👌!"
     },
     {
       "id": "3",
@@ -20,15 +20,15 @@
     },
     {
       "id": "OPL8tgQcO0w",
-      "title": "Test Post for axios tutorial",
-      "datetime": "Mar 28, 2026 9:14:10 AM",
+      "title": "Axios tutorial",
+      "datetime": "Mar 29, 2026 8:06:48 PM",
       "body": "Hopefully this  works well. If not, we'll still spend more time debugging and finding errors. This is why most ppeople prefer TypeScript over JavaScript."
     },
     {
-      "id": "TAI2Fzk7lxM",
-      "title": "Agenda for the day.",
-      "datetime": "Mar 28, 2026 9:28:18 AM",
-      "body": "Find an Agenda that bangs and put fire like your life depends on it — a typical life of twitter ng user."
+      "id": "OWzT2NN91Zs",
+      "title": "Test post",
+      "datetime": "Mar 29, 2026 8:03:38 PM",
+      "body": "Post number what? I don't know!"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

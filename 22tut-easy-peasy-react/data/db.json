@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": "2",
+      "title": "My 2nd Post",
+      "datetime": "Mar 29, 2026 8:04:51 PM",
+      "body": "This the second post. Cool stuff learning react❤️🚀👌!"
+    },
+    {
+      "id": "3",
+      "title": "My 3rd Post",
+      "datetime": "July 01, 2021 11:17:36 AM",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur expedita, assumenda similique non optio! Modi nesciunt excepturi corrupti atque blanditiis quo nobis, non optio quae possimus illum exercitationem ipsa!"
+    },
+    {
+      "id": "4",
+      "title": "My Fourth Post",
+      "datetime": "July 01, 2021 11:17:36 AM",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur expedita, assumenda similique non optio! Modi nesciunt excepturi corrupti atque blanditiis quo nobis, non optio quae possimus illum exercitationem ipsa!"
+    },
+    {
+      "id": "OPL8tgQcO0w",
+      "title": "Axios tutorial",
+      "datetime": "Mar 29, 2026 8:06:48 PM",
+      "body": "Hopefully this  works well. If not, we'll still spend more time debugging and finding errors. This is why most ppeople prefer TypeScript over JavaScript."
+    },
+    {
+      "id": "NQ5XY0ibFVY",
+      "title": "Checking what's up!",
+      "datetime": "Mar 29, 2026 9:27:22 PM",
+      "body": "Testing if everything is working okay again 😜."
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

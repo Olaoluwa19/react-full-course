@@ -1,0 +1,7 @@
+npx json-server -p 3500 -w data/db.json
+
+tools:
+https://nikgraf.github.io/react-hooks/
+https://www.npmjs.com/package/react-use
+https://easy-peasy.dev/docs/introduction/
+

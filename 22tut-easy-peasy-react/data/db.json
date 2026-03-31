@@ -1,12 +1,6 @@
 {
   "posts": [
     {
-      "id": "2",
-      "title": "My 2nd Post",
-      "datetime": "Mar 29, 2026 8:04:51 PM",
-      "body": "This the second post. Cool stuff learning react❤️🚀👌!"
-    },
-    {
       "id": "3",
       "title": "My 3rd Post",
       "datetime": "July 01, 2021 11:17:36 AM",
@@ -29,6 +23,12 @@
       "title": "Checking what's up!",
       "datetime": "Mar 31, 2026 7:41:33 AM",
       "body": "Testing if everything is working okay with easy-peasy 😜!"
+    },
+    {
+      "id": "AlqLo7ZxkDM",
+      "title": "New Post",
+      "datetime": "Mar 31, 2026 7:55:09 AM",
+      "body": "Hola, We're outside writing codes🚀🚀🚀👌....!"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
